@@ -1,0 +1,149 @@
+{
+  "uuid": "20efe1b7f428c012ef58bff6a52bb6cc",
+  "path": "Offline/power_distribution_board",
+  "name": "power_distribution_board",
+  "content": "",
+  "created_at": "2024-03-16 22:02:12",
+  "updated_at": "2024-10-05 14:37:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4a8f7ec02ea439ce621fbbf47407e88b",
+      "title": "Power-distribution & motor controller circuit",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "13cee8dc6fd44e2bada693010b9ed74a": 3,
+        "b9db0f5a7af84954bf7aad11c1f6aa50": 1,
+        "45ddbab4559a43c6bc95d2ca22fb25a0": 8,
+        "c99800e04af1474aaf1069c95dc7e57a": 5
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          5,
+          "HDR-TH_8P-P2.54-V-M",
+          "3.3V_RAIL,A_PINS,D_PINS,MOTOR_L,MOTOR_R",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Supplier Part": "C124381",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "Header-Male-2.54_1x8",
+            "puuid": "7142253ac24c42e1954a7f7d1d66b136",
+            "uuid": "c99800e04af1474aaf1069c95dc7e57a"
+          }
+        ],
+        [
+          "16 pins 2,54",
+          3,
+          "16PINS 2,54",
+          "+5V,+12V,GND",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "olivierin8",
+            "spiceSymbolName": "16 pins 2,54",
+            "puuid": "6b03a8fc7ea54e23accc960a6cce8ff9",
+            "uuid": "13cee8dc6fd44e2bada693010b9ed74a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "ARDUINO-NANO",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "KF301-5.0-2P",
+          8,
+          "CONN-TH_P5.00_KF301-5.0-2P",
+          "BATT_IN,DRIVER_L_OUT,DRIVER_R_OUT,PWM_L_1_2,PWM_R_3_4,REG-5V,REG-12V,V_DISP",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C474881",
+            "Manufacturer": "KEFA(科发)",
+            "Manufacturer Part": "KF301-5.0-2P",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "KF301-5.0-2P",
+            "puuid": "c444d117946441c3ab8b7492a6a9cd72",
+            "uuid": "45ddbab4559a43c6bc95d2ca22fb25a0"
+          }
+        ],
+        [
+          "M03",
+          1,
+          "SCREWTERMINAL-5MM-3",
+          "L2N8_PWR",
+          {
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "M03",
+            "Manufacturer Part": "",
+            "puuid": "12a9da8c47b341dd8d47e2804d5687e9",
+            "uuid": "b9db0f5a7af84954bf7aad11c1f6aa50"
+          }
+        ]
+      ],
+      "updateTime": 1728121028,
+      "createTime": 1710608532,
+      "histories": [],
+      "created_at": "2024-03-16 22:02:12",
+      "updated_at": "2024-10-05 14:37:08"
+    },
+    {
+      "uuid": "b1962e4a21cef5fc407e3f8496dcfb38",
+      "puuid": "20efe1b7f428c012ef58bff6a52bb6cc",
+      "title": "PCB_power_distribution_board_3",
+      "filename": "PCB_power_distribution_board_3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7142253ac24c42e1954a7f7d1d66b136": 5,
+        "c444d117946441c3ab8b7492a6a9cd72": 8,
+        "6b03a8fc7ea54e23accc960a6cce8ff9": 3,
+        "ff6e2030776d4574a7594ce501bb86c5": 1,
+        "12a9da8c47b341dd8d47e2804d5687e9": 1
+      },
+      "BOM": [],
+      "updateTime": 1728120896,
+      "createTime": 1710637657,
+      "histories": [],
+      "created_at": "2024-03-17 06:07:37",
+      "updated_at": "2024-10-05 14:34:56"
+    }
+  ],
+  "sort": [],
+  "title": "power_distribution_board",
+  "foldername": "power_distribution_board",
+  "schfilename": "power_distribution_board.json",
+  "schfilemtime": 1728121028729
+}
